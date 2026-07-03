@@ -1,5 +1,6 @@
+import alchemy
+
 print("=== Distillation 1 ===")
-import alchemy.potions
-print("Direct access to alchemy/potions.py")
-print("Testing healing_potion:", alchemy.potions.healing_potion())
-print("Testing strength_potion:", alchemy.potions.strength_potion())
+print("Using: 'import alchemy' structure to access potions")
+print("Testing strength_potion:", alchemy.strength_potion())
+print("Testing heal alias:", alchemy.heal())
